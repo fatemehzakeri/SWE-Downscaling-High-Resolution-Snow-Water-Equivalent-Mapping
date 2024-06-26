@@ -24,7 +24,7 @@ B=table2array(LearningDates(:,2:end));
 % Check if the Weights table is prod
 if exist('Weights','var')
     % Extract weights from the Weights table
-    wCloseAggreTmax=Weights.wCloseAggreTvidemax; % Tmax Short Temporal-neighborhood Weights;
+    wCloseAggreTmax=Weights.wCloseAggreTmax; % Tmax Short Temporal-neighborhood Weights;
     wCloseAggreTmin=Weights.wCloseAggreTmin; % Tmin Short Temporal-neighborhood Weights;
     wCloseAggreP=Weights.wCloseAggreP;       % Precipitation Short Temporal-neighborhood Weights;
     wCloseAggreRsds=Weights.wCloseAggreRsds; % RSDS Short Temporal-neighborhood Weights;
