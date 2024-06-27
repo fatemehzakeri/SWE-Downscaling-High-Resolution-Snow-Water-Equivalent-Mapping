@@ -35,7 +35,7 @@ ErrorSTD=load('./Output/ErrorSTD.mat');   % Loads the previously saved ErrorSTD.
 ErrorSTD=ErrorSTD.ErrorSTD;  % Extracts the ErrorSTD data.
 ErrorMean=load('./Output/ErrorMean.mat');   % Loads the previously saved ErrorMean.
 ErrorMean=ErrorMean.ErrorMean;  % Extracts the ErrorMean data.
-destinationFolder = './OutputAll';       % Defines a destination folder for saving output files.
+destinationFolder = './Output/OutputAll';       % Defines a destination folder for saving output files.
 
 %% Clearing Command Window
 clc                                      % Clears the Command Window one more time.
