@@ -89,6 +89,8 @@ parfor i=1:size(A,1)
     ErrorSTD(i, :) = [QueryDates.Dates(i), (A5_STD(I))'];
     ErrorMean(i, :) = [QueryDates.Dates(i), (A5_mean(I))'];
 end
+ErrorSTD(:,1)=QueryDates.Dates;
+ErrorMean(:,1)=QueryDates.Dates;
 ResultIndAll=ResultInd;
 
 end
