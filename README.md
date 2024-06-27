@@ -15,7 +15,7 @@ The repository is organized in a tree structure, showing folders and files essen
     |-- [Link to Download QueryDates.mat](#)  # Link to download QueryDates.mat
     |-- [Link to Download LearningDates.mat](#)  # Link to download LearningDates.mat
     |-- BayesResultXAtMinObjective.mat  # MAT file with algorithm weights
-    |-- SWE.mat                # MAT file with Snow Water Equivalent data
+    |-- SWE.mat                # Link to download SWE.mat 
     |-- SWEIndex.mat           # MAT file indexing the SWE data
     |-- RasterCal.tif          # GeoTIFF file with geospatial data
   /Output/                     # Directory for output files
